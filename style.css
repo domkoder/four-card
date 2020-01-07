@@ -1,34 +1,72 @@
 body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 
 .container {
   max-width: 375px;
-  padding: 20px;
+  padding: 30px;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-.container div {
-  padding: 5px;
+.container #first-div {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 
-.container div h1 {
-  font-size: 25px;
-}
-
-.container #first-div p {
-  font-size: 15px;
-  color: hsl(229, 6%, 66%);
+.container #first-div h1 {
+  font-size: 24px;
   font-weight: 600;
 }
-
 .container h1 span {
   letter-spacing: -1px;
   word-spacing: 6px;
   font-weight: 100;
   color: hsl(0, 0%, 50%);
+}
+
+.container #first-div p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.container .box {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: -2px 18px 20px 3px hsl(0, 0%, 91%);
+}
+
+.container .box h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.container .box p {
+  color: hsl(229, 6%, 66%);
+}
+
+.container #box-1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.container #box-2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.container #box-3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.container #box-4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.container .box img {
+  padding: 5px;
 }
