@@ -4,68 +4,77 @@ body {
   font-size: 15px;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 .container {
   max-width: 375px;
   padding: 30px;
   margin: auto;
 }
 
-.container #first-div {
+#first-div {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 70px;
 }
 
-.container #first-div h1 {
+#first-div .intro-title {
   font-size: 24px;
   font-weight: 600;
 }
-.container #first-div h1 span {
+#first-div .intro-title span {
   letter-spacing: -1px;
   word-spacing: 6px;
   font-weight: 100;
   color: hsl(0, 0%, 50%);
 }
 
-.container #first-div p {
+#first-div intro-desc {
   color: hsl(229, 6%, 66%);
   font-weight: 600;
   font-size: 16px;
   padding: 10px;
 }
 
-.container #second-div .box {
+#second-div .box {
   border-radius: 10px;
   margin-bottom: 30px;
   padding: 0 20px 0 20px;
   box-shadow: -2px 18px 20px 3px hsl(0, 0%, 91%);
 }
 
-.container #second-dv .box h3 {
+#second-div .box h3 {
   font-size: 20px;
   letter-spacing: 1px;
 }
 
-.container #second-div .box p {
+#second-div .box p {
   color: hsl(229, 6%, 66%);
 }
 
-.container #second-div #box-1 {
+#second-div #box-1 {
   border-top: 5px solid hsl(180, 62%, 55%);
 }
 
-.container #second-div #box-2 {
+#second-div #box-2 {
   border-top: 5px solid hsl(0, 78%, 62%);
+  margin-bottom: 30px;
 }
 
-.container #second-div #box-3 {
+#second-div #box-3 {
   border-top: 5px solid hsl(34, 97%, 64%);
 }
 
-.container #second-div #box-4 {
+#second-div #box-4 {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
-.container #second-div .box img {
+#second-div .box img {
   padding: 20px 0px 20px 10px;
   float: right;
 }
@@ -80,34 +89,34 @@ body {
     margin: auto;
   }
 
-  .container #first-div {
+  #first-div {
     width: 550px;
     margin: 40px auto 40px auto;
   }
 
-  .container #first-div h1 {
+  #first-div .intro-title {
     font-size: 39px;
   }
 
-  .container h1 span {
+  #first-div .intro-title span {
     word-spacing: 15px;
   }
 
-  .container #second-div {
+  #second-div {
     display: flex;
     justify-content: center;
     height: 600px;
     align-items: center;
   }
 
-  .container #second-div .box {
+  #second-div .box {
     margin: 1rem;
     width: 250px;
   }
 }
 
 @media (min-width: 1026px) {
-  .container #second-div .box {
+  #second-div .box {
     margin: 1rem;
     width: 300px;
   }
